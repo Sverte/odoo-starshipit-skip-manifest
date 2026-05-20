@@ -1,5 +1,10 @@
 # Odoo Starshipit Skip Manifest
 
+> [!WARNING]
+> I am not a Python developer and this module was created primarily from an operational understanding of Odoo and the Starshipit workflow, with assistance from AI tooling.
+>
+> The code works for our use case on Odoo Enterprise 19.0, but it should still be reviewed, tested and used at your own discretion before production deployment.
+
 Small Odoo addon set for Odoo Enterprise's built-in Starshipit delivery integration.
 
 The production addon prevents Odoo from automatically calling Starshipit's `orders/manifest` endpoint after shipment/label creation. Labels, tracking and normal shipment creation are left untouched.
