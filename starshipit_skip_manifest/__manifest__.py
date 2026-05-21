@@ -1,8 +1,9 @@
 {
-    "name": "starshipit_skip_manifest",
+    "name": "Starshipit Skip Manifest",
     "version": "19.0.1.0.0",
     "category": "Inventory/Delivery",
     "summary": "Prevents Odoo Starshipit integration from automatically manifesting orders",
+    "description": "Skips automatic Starshipit manifest requests and suppresses the related missing manifest PDF chatter warning.",
     "author": "Community",
     "website": "https://github.com/",
     "depends": ["delivery_starshipit", "stock", "mail"],
@@ -11,5 +12,5 @@
     "installable": True,
     "application": False,
     "auto_install": False,
-    "license": "MIT"
+    "license": "LGPL-3"
 }

@@ -1,1 +1,1 @@
-# models init
+from . import stock_picking
